@@ -1,13 +1,8 @@
-import express from 'express'
-import dotenv from 'dotenv'
-import cors from 'cors'
-import connectDB from './Ddbconfig.js';
-import recipeRoute from './Routers/recipeRouter.js'
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import connectDB from "./Ddbconfig.js";
-import recipeRoute from "./Routers/recipeRouter.js";
+import connectDB from "./database/dbconfig.js";
+import recipeRoute from "./routers/recipiesrouter.js";
 
 // configure dotenv file
 dotenv.config();

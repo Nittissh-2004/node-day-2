@@ -1,5 +1,3 @@
-import mongoose from 'mongoose'
-
 import mongoose from "mongoose";
 
 // declare RecipeSchema for basic structure for mongodb

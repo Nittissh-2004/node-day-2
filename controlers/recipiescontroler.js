@@ -1,4 +1,4 @@
-import recipes from "../Models/recipeSchema.js";
+import recipes from "../models/recipiesschema.js";
 
 //create product by using Post method
 
